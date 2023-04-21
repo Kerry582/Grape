@@ -14,7 +14,7 @@ Application::~Application()
 
 void Application::run()
 {
-	system("pause");
+	//system("pause");
 }
 
 END_GP_NAMESPACE
