@@ -1,12 +1,15 @@
 #pragma once
 
+#include "Log.h"
+
 #ifdef GP_PLATFORM_WINDOWS
 
 extern grape::Application* grape::createApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Grape Engine\n");
+	grape::Log::init();
+	GP_CORE_INFO("Welcome to Grape");
 	auto app = grape::createApplication();
 	app->run();
 	delete app;

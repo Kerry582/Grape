@@ -6,5 +6,5 @@ del Grape\Grape.vcxproj.filters
 del Sandbox\Sandbox.vcxproj
 del Sandbox\Sandbox.vcxproj.user
 del Sandbox\Sandbox.vcxproj.filters
-External\bin\premake5.exe vs2019
+call External\bin\premake5.exe vs2019
 pause

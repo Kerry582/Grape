@@ -29,6 +29,7 @@ project "Grape"
 	includedirs
 	{
 		"%{prj.name}/src",
+		"%{prj.name}/External/spdlog/include"
 	}
 
 	filter "system:Windows"
@@ -38,8 +39,6 @@ project "Grape"
 		defines
 		{
 			"GP_PLATFORM_WINDOWS",
-			"_WIN32",
-			"_WINDOWS",
 			"_WINDLL",
 			"GP_BUILD_DLL",
 			"GP_DYNAMIC_LNK"
@@ -79,6 +78,7 @@ project "Sandbox"
 	includedirs
 	{
 		"Grape/src",
+		"Grape/External/spdlog/include"
 	}
 
 	links

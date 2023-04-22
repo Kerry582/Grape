@@ -1,11 +1,8 @@
 # Directories
 .vs/
-Debug.windows.x86/
-Debug.windows.x86_x64/
-Release.windows.x86/
-Release.windows.x86_x64/
-Dist.windows.x86/
-Dist.windows.x86_x64/
+Debug.*/
+Release.*/
+Dist.*/
 
 # Files
 *.user

@@ -4,6 +4,9 @@
     <Filter Include="Based">
       <UniqueIdentifier>{C478E00C-308D-08BE-F90E-AC1D65E204EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{E70B220D-5320-4ABE-1CA2-ED1D887546EF}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Based\Application.h">
@@ -15,13 +18,34 @@
     <ClInclude Include="src\Based\Entry.h">
       <Filter>Based</Filter>
     </ClInclude>
+    <ClInclude Include="src\Based\Log.h">
+      <Filter>Based</Filter>
+    </ClInclude>
     <ClInclude Include="src\Based\Window.h">
       <Filter>Based</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event\AppEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event\Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event\KeyEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event\MouseEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event\WindowEvent.h">
+      <Filter>Event</Filter>
     </ClInclude>
     <ClInclude Include="src\Grape.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Based\Application.cpp">
+      <Filter>Based</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Based\Log.cpp">
       <Filter>Based</Filter>
     </ClCompile>
     <ClCompile Include="src\Based\Window.cpp">
